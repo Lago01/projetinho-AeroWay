@@ -1,0 +1,17 @@
+.titulo__voos {
+    font-size: 30px;
+    font-family: 'Krona One', 'sans-serif';
+}
+
+.hospedagem__3 {
+    gap: 38px;
+}
+
+.titulo__principal__voos {
+    display: flex;
+    background-color: #01456F;
+    border-radius: 8px;
+    gap: 16px;
+    width: 21%;
+    padding: 1%;
+}

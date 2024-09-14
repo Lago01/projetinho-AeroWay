@@ -1,0 +1,62 @@
+.titulo__hospedagem {
+    font-size: 30px;
+    font-family: 'Krona One', 'sans-serif';
+}
+
+.titulo__principal__hospedagem {
+    display: flex;
+    background-color: #01456F;
+    border-radius: 8px;
+    gap: 16px;
+    width: 52%;
+    padding: 1%;
+}
+
+.apresentacao__hospedagem {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apresentacao__conteudo__hospedagem {
+    padding: 4%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.input__int {
+    background-color: #DAD4B5;
+    width: 15%;
+    padding: 3%;
+    border-radius: 8px;
+
+}
+
+.input__str {
+    background-color: #DAD4B5;
+    width: 60%;
+    padding: 3%;
+    border-radius: 8px;
+}
+
+.primeiro__link {
+    gap: 34px;
+    margin: 5%;
+    text-decoration: none;
+    background-color: #01456E;
+    color: #FFFFFF;
+}
+
+.segundo__link {
+    gap: 34px;
+    margin: 5%;
+    text-decoration: none;
+    border: solid 2px #01456E;
+    color: #FFFFFF;
+}
+
+.apresentacao__conteudo__hospedagem__2 {
+    gap: 40px;
+}
