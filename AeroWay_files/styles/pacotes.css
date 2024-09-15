@@ -1,0 +1,135 @@
+.titulo__pacotes {
+    font-size: 30px;
+    font-family: 'Krona One', 'sans-serif';
+}
+
+.titulo__principal__pacotes {
+    display: flex;
+    background-color: #01456F;
+    border-radius: 8px;
+    gap: 16px;
+    width: 27.2%;
+    padding: 1%;
+}
+
+.paragrafo__destaque {
+    text-decoration: underline #01456F 2px;
+}
+.hoteis {
+    display: flex;
+    flex-direction: row;
+}
+
+.hoteis__organizacao {
+    flex-direction: column;
+    padding: 2%;
+    display: flex;
+    width: 343px;
+}
+
+.informacoes {
+    display: flex;
+    color: #3C3D37;
+    background-color: #D9D9D9;
+    font-size: 14px;
+    border-radius: 0px 0px 20px 20px;
+    height: 367px;
+}
+
+.nome__hotel {
+    color: #000000;
+    font-size: 32px;
+    gap: 12;
+    margin: 3%;
+    font-family: 'Montserra', 'sans-serif';
+    font-weight: 600;
+}
+
+.imagem__hotel, .informacoes {
+    display: inline-block;
+}
+
+.avaliacao {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserra', 'sans-serif';
+    font-weight: 400;
+    font-size: 18px;
+    margin: 3%;
+    gap: 2px;
+}
+
+.distancia {
+    font-family: 'Montserra', 'sans-serif';
+    font-weight: 400;
+    font-size: 18px;
+    margin: 3%;
+}
+
+.destaque__pacotes {
+    color: #000000;
+    font-weight: 600;
+}
+
+.mais__informacoes {
+    display: flex;
+    background-color: #B0F1B2;
+    margin: 5%;
+    border-radius: 10px;
+    width: 294px;
+    height: 140;
+    color: #00712dbe;
+    flex-direction: column;
+}
+
+.nome__site__hotel {
+    color: #000000;
+    margin: 3%;
+    font-family: 'montserra', 'sans-serif';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.organizacao__inrmacoes__extras {
+    display: flex;
+    margin: 0.15% 3%;
+
+}
+
+.destaque__pacotes__parte-2 {
+    color: #00712D;
+}
+
+.destaque__extra__parte-2 {
+    font-size: 14px;
+    color: #000000;
+    font-family: 'montserra', 'sans-serif';
+    font-weight: 600;
+}
+
+.distancia__extra__parte-2 {
+    margin: 0% 3%;
+    font-size: 14px;
+    color: #3C3D37;
+    font-family: 'montserra', 'sans-serif';
+    font-weight: 400;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    background-color: #318E53;
+    width: 35%;
+    font-family: 'montserra', 'sans-serif';
+    font-weight: 600;
+    margin: 0% 60% 3%;
+    border-radius: 5px;
+    height: 31px;
+    font-size: 18px;
+}
+
+.text__ofc {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 5%;
+}

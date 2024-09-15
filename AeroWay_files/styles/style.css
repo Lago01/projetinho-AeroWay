@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(hospedagem.css);
 @import url(voos.css);
+@import url(pacotes.css);
 
 * {
     margin: 0;
@@ -43,6 +44,7 @@ body {
 
 .imagem__inicial {
     padding: 4%;
+    border-radius: 80px;
 }
 
 .apresentacao__conteudo {
@@ -54,7 +56,6 @@ body {
 }
 
 .paragrafo {
-    padding: 0% 7%;
     font-size: 20px;
     font-family: 'Montserrat', 'sans-serif';
 }
@@ -71,6 +72,32 @@ body {
     padding: 1.75% 2%;
     font-size: 23px;
     font-family:'Montserrat', 'sans-serif';
+    justify-content: center;
+}
+
+.inicio:hover {
+    color: #ffffffa9;
+    text-decoration: underline;
+}
+
+.hospedagem:hover {
+    color: #ffffffa9;
+    text-decoration: underline;
+}
+
+.voos:hover {
+    color: #ffffffa9;
+    text-decoration: underline;
+}
+
+.pacotes__de__voo:hover {
+    color: #ffffffa9;
+    text-decoration: underline;
+}
+
+.suporte:hover {
+    color: #ffffffa9;
+    text-decoration: underline;
 }
 
 .links {
