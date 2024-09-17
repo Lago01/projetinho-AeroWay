@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(#6AAED9 10%,#2B29A0 100%);
+}
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bolha {
+    background-image: linear-gradient(in hsl, #2B29A0 10%, #6AAED9 100%);
+    padding: 40px;
+    border-radius: 2px;
+    width: 280px;
+    border-radius: 26px;
+}
+.bolhacab{
+    padding-bottom: 50px;
+    opacity: 0.8;
+    color: #fff;
+}
+.bolhacab::after {
+    content: "";
+    width: 70px;
+    height: 1px;
+    background-color: white;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+.bolhaprincipal label{
+    color: white;
+    font-size: 2px;
+    opacity: 0.8;
+}
+.dentrobolha{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.dentrobolha input {
+    margin-top: 10px;
+    padding: 0 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: white;
+}
+.senha .submit{
+    display: flex;
+    flex-direction: column;
+}
+.senha .submit{
+    width: 32%;
+    height: 100%;
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    margin: 1% 68.9%;
+}
+.senha a {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+    color: white;
+    text-decoration: none;
+
+}
+
+.submit {
+    border-radius: 5px;
+}

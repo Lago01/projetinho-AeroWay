@@ -2,6 +2,7 @@
 @import url(hospedagem.css);
 @import url(voos.css);
 @import url(pacotes.css);
+@import url(suporte.css);
 
 * {
     margin: 0;
@@ -12,8 +13,7 @@ body {
     background-image: linear-gradient(
       in hsl,
       #6AAED9 10%,
-      #2B29A0 100%
-      
+      #2B29A0 100% 
     );
     background-attachment: fixed;
     color: #FFFFFF;
@@ -106,4 +106,8 @@ body {
     padding: 2%;
     width: 10%;
     font-weight: 500;
+}
+.login:hover{
+    color: #ffffffa9;
+    text-decoration: underline;
 }
